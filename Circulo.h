@@ -21,11 +21,11 @@ public:
     }
 
     T area() {
-        return static_cast<T>(M_PI * radio * radio);
+        return (M_PI * radio * radio);
     }
 
     T perimetro() {
-        return static_cast<T>(2.0 * M_PI * radio);
+        return (2.0 * M_PI * radio);
     }
 };
 
